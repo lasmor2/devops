@@ -1,0 +1,34 @@
+{"level":"info","message":"hello from devops","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:14:24:58 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"hello from devops","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:14:25:04 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"hello from devops","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:14:48:06 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:14:48:17 +0000] \"GET /api HTTP/1.1\" 200 36 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:14:52:08 +0000] \"GET /api HTTP/1.1\" 200 36 \"-\" \"PostmanRuntime/7.39.1\"","service":"user-service"}
+{"level":"info","message":"hello from devops","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:14:52:18 +0000] \"GET / HTTP/1.1\" 200 17 \"-\" \"PostmanRuntime/7.39.1\"","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:14:54:56 +0000] \"GET /api HTTP/1.1\" 200 36 \"-\" \"HTTPie\"","service":"user-service"}
+{"level":"info","message":"hello from devops","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:14:55:01 +0000] \"GET / HTTP/1.1\" 200 17 \"-\" \"HTTPie\"","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:14:56:03 +0000] \"GET /helth HTTP/1.1\" 404 144 \"-\" \"HTTPie\"","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:14:56:08 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:21:55:36 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:21:56:52 +0000] \"GET /api/auth/sign-up HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:21:58:38 +0000] \"GET /api HTTP/1.1\" 200 36 \"-\" \"HTTPie\"","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:21:59:01 +0000] \"GET /api/auth HTTP/1.1\" 404 147 \"-\" \"HTTPie\"","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:22:07:57 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 13 \"-\" \"PostmanRuntime/7.39.1\"","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:22:08:29 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 13 \"-\" \"HTTPie\"","service":"user-service"}
+{"level":"info","message":"::1 - - [19/Sep/2025:23:08:35 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"user-service"}
+{"level":"error","message":"Signup error createUser is not defined","service":"user-service","stack":"ReferenceError: createUser is not defined\n    at signup (file:///C:/Users/MR/Documents/devops/devops/src/controllers/auth.controller.js:21:18)\n    at Layer.handleRequest (C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\index.js:186:3)"}
+{"level":"info","message":"::1 - - [19/Sep/2025:23:12:54 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1239 \"-\" \"HTTPie\"","service":"user-service"}
+{"level":"error","message":"Signup error token is not defined","service":"user-service","stack":"ReferenceError: token is not defined\n    at signup (file:///C:/Users/MR/Documents/devops/devops/src/controllers/auth.controller.js:29:31)\n    at Layer.handleRequest (C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\Users\\MR\\Documents\\devops\\devops\\node_modules\\router\\index.js:186:3)"}
+{"level":"info","message":"::1 - - [19/Sep/2025:23:13:39 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1234 \"-\" \"HTTPie\"","service":"user-service"}
+{"level":"info","message":"User adeggrejn@gmail.com created successfully","service":"user-service"}
+{"level":"info","message":"User registered successfully: adeggrejn@gmail.com","service":"user-service"}
+{"level":"info","message":"::1 - - [20/Sep/2025:10:18:03 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 104 \"-\" \"HTTPie\"","service":"user-service"}
+{"level":"info","message":"User adeggrejn@gmail.com authenticated successfully","service":"user-service"}
+{"level":"info","message":"User signed in successfully: adeggrejn@gmail.com","service":"user-service"}
+{"level":"info","message":"::1 - - [20/Sep/2025:10:47:06 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 116 \"-\" \"HTTPie\"","service":"user-service"}
+{"level":"info","message":"User signed out successfully","service":"user-service"}
+{"level":"info","message":"::1 - - [20/Sep/2025:10:54:15 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"user-service"}
